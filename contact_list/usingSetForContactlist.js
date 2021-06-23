@@ -19,7 +19,7 @@ class SetUsingarray {
     //add data on set
     adddata(data) {
             this.dataArray.push(data);
-            sorting();
+            this.sorting();
             return;
     }
     //data delete by index
